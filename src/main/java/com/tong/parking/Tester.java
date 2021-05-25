@@ -1,8 +1,6 @@
-package com.tong;
+package com.tong.parking;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
+
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +8,7 @@ import java.util.Map;
 public class Tester {
     public static void main(String[] args) {
         int fee=30;
-        Map<String,Car> cars =new HashMap<>();
+        Map<String, Car> cars =new HashMap<>();
         Car C1=new Car("wtf-8787","07:30");
         Car C2=new Car("wow-7878","09:45");
         Car C3=new Car("TAT-6969","10:30");
